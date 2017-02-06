@@ -1,0 +1,261 @@
+body {
+    height: 100%;
+    background-image: -webkit-radial-gradient(ellipse farthest-corner at center top, #000d4d 0%, #000105 100%);
+    background-image: radial-gradient(ellipse farthest-corner at center top, #000d4d 0%, #000105 100%);
+    /*background:#000d4d;*/
+    cursor: default;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 16px;
+    font-family: "Microsoft YaHei", serif;
+    color: #888;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+.hd_logo{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    float: left;
+}
+.logo{
+    display: inherit;
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+.hd_box{
+    /*height: 100%;*/
+    padding:30px 30px 100px 30px;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.5);
+}
+.hd_search_bar{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.hd_search_btn{
+    padding: 0!important;
+    border: 1px solid #6287e6;
+    box-shadow: 0 0 6px #6287e6;
+    border-radius: 0!important;
+}
+.hd_search_engine{
+    padding: 8px 16px;
+    background-color: #6287e6;
+    color: #fff;
+    /* background: rgba(255,255,255,0);*/
+}
+.hd_search_engine:hover,
+.hd_search_engine:focus
+{
+    background-color: #6287e6;
+    color: #fff;
+}
+.hd_search_engine>option{
+    margin-bottom: 10px;
+}
+.hd_search_btn>button{
+    padding: 9px 16px;
+    background: #6287e6;
+    color: #fff;
+}
+.hd_search_btn>button:hover{
+    color: #fff;
+}
+.search_keyword{
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    border: 1px solid #6287e6;
+    box-shadow: 0 0 6px #6287e6;
+}
+.search_keyword,
+.hd_search_engine,
+.hd_search_btn>button{
+    border-radius: 0!important;
+    border: 1px solid #6287e6;
+    box-shadow: 0 0 6px #6287e6;
+}
+.site_title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #6287e6;
+}
+.nav_group_box{
+    margin-bottom: 15px;
+}
+.nav_group{
+    /* padding-top: 30px; */
+}
+.nav_group>li{
+    margin-bottom: 20px;
+}
+.nav_group>li>a{
+    width: 130px;
+    height: 48px;
+    padding:10px 2px;
+    background: #272727;
+    box-shadow: 0 0 6px #6287e6;
+    border-color: #6287e6;
+    border-radius: 25px;
+    color: #6287e6;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.nav_group>li>a:active,
+.nav_group>li>a:focus,
+.nav_group>li>a:hover{
+    color: #fff;
+    background-color: #6287e6;
+    border-color: #6287e6;
+}
+.nav_group_title{
+    /*color: #fff;*/
+    font-size: 24px;
+    text-align: right;
+}
+.site_logo{
+    margin-right: 5px;
+}
+.search_bar {
+    width: 650px;
+    margin: 30px auto 60px auto;
+    font-size: 0;
+}
+/* Baidu Bar */
+.search_kw {
+    width: 514px;
+    height: 46px;
+    font-size: 18px;
+    /*border-radius: 2px 0 0 2px;*/
+    padding: 0 10px;
+    vertical-align: top;
+    display: inline-block;
+    transition: .2s;
+    box-shadow: 0 0 6px #6287e6;
+    border: 1px solid #6287e6;
+    border-right: 0;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+}
+.search_btn {
+    width: 120px;
+    height: 46px;
+    font-size: 18px;
+    color: rgba(255,255,255,.9);
+    background: #6287e6;
+    border: 1px solid #6287e6;
+    /*border-radius: 0 2px 2px 0;*/
+    box-shadow: 0 0 6px #6287e6;
+    margin: 0 0 0 -1px;
+    padding-left: 2px;
+    vertical-align: top;
+    transition: .3s;
+    display: inline-block;
+    cursor: pointer;
+}
+.search_btn>span{
+    top:2px;
+    padding-right: 2px;
+}
+.search_btn:hover {
+    background: rgba(98,135,230,.9);
+}
+.search_kw:focus {
+    /*background: rgba(20,20,20,0.8);*/
+}
+.bdSug_wpr{
+    padding: 10px 5px!important;
+    background: rgba(0,0,0,0.5)!important;
+    border:1px solid rgb(98,135,230)!important;
+    box-shadow: 0 0 6px #6287e6;
+    color: #ccc;
+}
+.bdSug_wpr table{
+    border: 0!important;
+    background: rgba(0,0,0,0.5)!important;
+    color: #ccc;
+}
+.bdSug_wpr tr{
+    cursor: pointer;
+}
+.bdSug_wpr td{
+    font-size: 16px!important;
+    padding: 5px!important;
+}
+.bdSug_app,.bdSug_app>div {
+    display: none;
+    background: rgba(0,0,0,0.5)!important;
+}
+/* ./Baidu Bar */
+
+/* width< 992px ipad */
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .hd_search_bar {
+        width: 70%;
+    }
+
+}
+/* width< 768px phone */
+@media only screen and (max-width:768px) {
+    body {
+        font-size: 14px;
+        /*overflow-y: auto;*/
+        background:#000d4d;
+    }
+    .hd_box {
+        /*overflow-y: auto;*/
+    }
+    .hd_search_engine {
+        padding: 8px 5px;
+    }
+    .hd_search_bar {
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .nav_group_title {
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 20px   ;
+    }
+    .nav_group>li>a{
+        width: 80px;
+        height: 60px;
+        padding: 6px 2px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+    .nav_group>li>a>span{
+        display: block;
+        margin-top: 3px;
+    }
+    .nav_group_box {
+        margin-bottom: 0;
+    }
+    .search_bar {
+        width: 100%;
+        margin: 10px auto 20px auto;
+    }
+    /* Baidu Bar */
+    .search_kw {
+        width: 80%;
+    }
+    .search_btn {
+        width: 20%;
+    }
+
+
+}
