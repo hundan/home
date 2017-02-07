@@ -14,9 +14,15 @@ $link = @mysql_connect("{$host}:{$port}",$user,$pwd,true);
 if(!$link) {
     die("Connect Server Failed: " . mysql_error());
 }
+else{
+	 die("Connect Server Success!" );
+}
 /*连接成功后立即调用mysql_select_db()选中需要连接的数据库*/
 if(!mysql_select_db($dbname,$link)) {
-    die("Select Database Failed: " . mysql_error($link));
+    die("Connect Database Failed: " . mysql_error($link));
+}
+else{
+	die("Connect Database Success!" );
 }
  
 /*至此连接已完全建立，就可对当前数据库进行相应的操作了*/
