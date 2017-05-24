@@ -30,9 +30,9 @@
 
 </head>
 
-<body ng-app="myapp" ng-controller="mycon" style="position: relative">
+<body ng-app="myapp" ng-controller="mycon" style="position: relative" class="body_bg">
   <canvas id="canv" style="z-index: -99;"></canvas>
-  <section class="container-fluid hd_box">
+  <section class="container-fluid hd_box hd_box_bg">
       <h2 class="text-center site_title hidden-xs">
           <span class=""><img src="img/logo.png" width="32" height="32" class="img-responsive img-circle logo">我的导航</span>
       </h2>
@@ -66,6 +66,12 @@
 </body>
 </html>
 <!-- 百度搜索提示 -->
-<script charset="gbk" src="http://www.baidu.com/js/opensug.js"></script>
+<script charset="gbk" src="http://www.baidu.com/js/opensug.js"></script> 
+<!-- <script charset="gbk" src="js/BaiduSugApi.js"></script> -->
 <script type="text/javascript" src="js/baidu_suggestion.js"></script>
+<script>
+    if(IsPC()){
+        func_background_init();//启用背景特效
+    }
+</script>
 

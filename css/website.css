@@ -1,12 +1,5 @@
 body {
     height: 100%;
-    background-image: -webkit-radial-gradient(ellipse farthest-corner at center top, #000d4d 0%, #000105 100%);
-    background-image: radial-gradient(ellipse farthest-corner at center top, #000d4d 0%, #000105 100%);
-    /*background:#000d4d;*/
-    cursor: default;
-}
-
-body {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -14,6 +7,21 @@ body {
     font-size: 16px;
     font-family: "Microsoft YaHei", serif;
     color: #888;
+    cursor: default;
+}
+.body_bg{
+    background-image: -webkit-radial-gradient(ellipse farthest-corner at center top, #000d4d 0%, #000105 100%);
+    background-image: radial-gradient(ellipse farthest-corner at center top, #000d4d 0%, #000105 100%);
+    background:#000d4d;
+}
+.body_gray{
+    background: #363636;
+}
+.body_school{
+    background: url("../img/bg_school.jpg") no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 a,a:hover{
@@ -37,6 +45,8 @@ a,a:hover{
     top:0;
     left: 0;
     right: 0;
+}
+.hd_box_bg{
     background: rgba(0,0,0,.5);
 }
 .hd_search_bar{
@@ -88,15 +98,15 @@ a,a:hover{
     box-shadow: 0 0 6px #6287e6;
 }
 .site_title{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: #6287e6;
 }
 .nav_group_box{
     margin-bottom: 15px;
 }
 .nav_group{
-    /* padding-top: 30px; */
+    margin-bottom: 0;
 }
 .nav_group>li{
     margin-bottom: 20px;
@@ -131,7 +141,7 @@ a,a:hover{
 }
 .search_bar {
     width: 650px;
-    margin: 30px auto 60px auto;
+    margin: 20px auto 50px auto;
     font-size: 0;
 }
 /* Baidu Bar */
@@ -149,6 +159,9 @@ a,a:hover{
     border-right: 0;
     background: rgba(0,0,0,0.5);
     color: #fff;
+}
+.search_btn_sm {
+    width: 80px!important;
 }
 .search_btn {
     width: 120px;
@@ -182,6 +195,7 @@ a,a:hover{
     border:1px solid rgb(98,135,230)!important;
     box-shadow: 0 0 6px #6287e6;
     color: #ccc;
+    z-index: 9999!important;
 }
 .bdSug_wpr table{
     border: 0!important;

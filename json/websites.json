@@ -4,7 +4,7 @@
     { "no" : "1","name" : "谷歌", "url" : "http://www.google.com.hk","imglink":"img/google_sm.png"},
     { "no" : "2","name" : "新浪", "url" : "http://news.sina.com.cn","imglink":"img/sina.png"},
     { "no" : "3","name" : "网易", "url" : "http://www.163.com","imglink":"img/163_yi.png"},
-    { "no" : "4","name" : "淘宝", "url" : "https://www.taobao.com","imglink":"img/taobao.png"},
+    { "no" : "4","name" : "天猫", "url" : "http://www.tmall.com","imglink":"img/tmall.png"},
     { "no" : "5","name" : "京东", "url" : "http://www.jd.com","imglink":"img/jd.png"}
   ]},
 
@@ -12,9 +12,11 @@
     { "no" : "0","name" : "乐视视频", "url" : "http://www.le.com","imglink":"img/le.png"},
     { "no" : "1","name" : "爱奇艺", "url" : "http://www.iqiyi.com","imglink":"img/iqiyi.png"},
     { "no" : "2","name" : "搜狐视频", "url" : "http://tv.sohu.com","imglink":"img/sohu.png"},
-    { "no" : "3","name" : "优酷视频", "url" : "http://www.youku.com","imglink":"img/youku.png"},
-    { "no" : "4","name" : "YouTube", "url" : "https://www.youtube.com","imglink":"img/youtube.png"},
-    { "no" : "5","name" : "B站", "url" : "http://www.bilibili.com","imglink":"img/bilibili.png"}
+    { "no" : "3","name" : "芒果TV", "url" : "http://www.mgtv.com","imglink":"img/mgtv.png"},
+    { "no" : "4","name" : "优酷视频", "url" : "http://www.youku.com","imglink":"img/youku.png"},
+    { "no" : "5","name" : "YouTube", "url" : "https://www.youtube.com","imglink":"img/youtube.png"},
+    { "no" : "6","name" : "A站", "url" : "http://www.acfun.cn","imglink":"img/acfun.png"},
+    { "no" : "7","name" : "B站", "url" : "http://www.bilibili.com","imglink":"img/bilibili.png"}
   ]},
 
   { "id" : "2","name" : "个人喜爱", "items":[
@@ -23,7 +25,9 @@
     { "no" : "9","name" : "超大防务", "url" : "http://www.cjdby.net","imglink":"img/supermil.png"},
     { "no" : "2","name" : "电影天堂", "url" : "http://www.loldytt.com","imglink":"img/loldytt.png"},
     { "no" : "3","name" : "Mp4Ba", "url" : "http://www.mp4ba.com","imglink":"img/sina.png"},
-    { "no" : "4","name" : "知乎", "url" : "https://www.zhihu.com","imglink":"img/zhihu.png"}
+    { "no" : "4","name" : "大疆", "url" : "http://www.dji.com","imglink":"img/dji.png"},
+    { "no" : "5","name" : "IT之家", "url" : "http://www.ithome.com","imglink":"img/ithome.png"},
+    { "no" : "6","name" : "知乎", "url" : "https://www.zhihu.com","imglink":"img/zhihu.png"}
   ]},
 
   { "id" : "3","name" : "公司网站", "items":[

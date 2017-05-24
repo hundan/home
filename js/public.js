@@ -3,7 +3,7 @@
  */
 
 /**
- * 特效背景
+ * 特效背景1
  */
  function  func_background_init(){
       var num = 200;
@@ -312,6 +312,22 @@
         canvas.height = h = window.innerHeight;
       }, false);
  }
+
+/**
+ * 特效背景2
+ */
+function rain() {
+  var image = document.getElementById('background');
+  image.onload = function() {
+    var engine = new RainyDay({
+      image: this
+    });
+    engine.rain([ [1, 2, 8000] ]);
+    engine.rain([ [3, 3, 0.88], [5, 5, 0.9], [6, 2, 1] ], 100);
+  };
+  image.crossOrigin = 'anonymous';
+  image.src = './img/1.jpg';
+}
 
 /**
  * 判断客户端是否为PC

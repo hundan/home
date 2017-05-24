@@ -14,17 +14,17 @@ angular.module("myapp",[]).controller("mycon",function($scope,$http){
 
     //获取网址数据
     $http.get("json/websites.json").success(function (data) {
-        //console.log('%c--网址--:','font-size:20px;color:#6bc30d;');
         //console.log(data);
         $scope.websites = data;
+        //console.log($scope.websites);
     });
 
     //搜索按钮favorite
     $scope.fun_search = function(){
         //console.info($scope.search);
         //window.location.href=$scope.mysite['url']+$scope.search;
-        window.open($scope.mysite['url']+$scope.search,"_blank");
-    }
+        //window.open($scope.mysite['url']+$scope.search,"_blank");
+    };
 
     //enter键-搜索
     document.onkeydown=function(event){
@@ -36,7 +36,9 @@ angular.module("myapp",[]).controller("mycon",function($scope,$http){
 
 
     //判断客户端是否为PC
-    if(IsPC()){
-        func_background_init();//启用背景特效
-    }
+   /* if(IsPC()){
+        //func_background_init();//启用背景特效
+        //func_flower();
+        //rain();
+    }*/
 });

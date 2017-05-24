@@ -30,9 +30,9 @@
 
 </head>
 
-<body ng-app="myapp" ng-controller="mycon" style="position: relative">
+<body ng-app="myapp" ng-controller="mycon" style="position: relative" class="body_bg">
   <canvas id="canv"></canvas>
-  <section class="container-fluid hd_box">
+  <section class="container-fluid hd_box hd_box_bg">
       <!--<h2 class="text-center site_title hidden-xs">魂淡导航</h2>-->
       <h2 class="text-center site_title hidden-xs">
           <span class=""><img src="img/logo.png" width="32" height="32" class="img-responsive img-circle logo">魂淡导航</span>
@@ -67,3 +67,8 @@
 
 </body>
 </html>
+<script>
+    if(IsPC()){
+        func_background_init();//启用背景特效
+    }
+</script>
